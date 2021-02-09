@@ -1,0 +1,18 @@
+{%extends "bootlayout.html"%}
+
+
+{%block content%}
+<div class="container-fluid py-5 bg-dark text-white">
+    <h1 class="text-center">Download Xhamster Images</h1>
+</div>
+<div class="container text-center my-4">
+    <form action="/download" method="POST">
+        <input type="text" class="w-75 text-center py-2" name="search" id="" placeholder="Enter The Url">
+        <br>
+        <button class="btn btn-primary my-3" type="submit">Download Images</button>
+    </form>
+
+</div>
+
+
+{%endblock%}
